@@ -8,10 +8,8 @@ def square_array(array)
 end
 
 def collector(array)
-  array.collect do |cell|
-    cell ** 2
-  end
-  puts array
+  puts array.collect {|cell| cell ** 2} 
+  
 end
 
 collector([9,10,16,25])
