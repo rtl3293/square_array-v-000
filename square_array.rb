@@ -12,3 +12,5 @@ def collector(array) {
     cell ** 2
   end
 }
+
+collector([9,10,16,25])
