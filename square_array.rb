@@ -6,3 +6,9 @@ def square_array(array)
   end
   return new_array
 end
+
+def collector(array) {
+  array.collect do |cell|
+    cell ** 2
+  end
+}
